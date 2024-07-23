@@ -1,5 +1,44 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height  : 100%;
+    width   : 100%;
+}
+
 .container{
+    padding : 10px;
     height: 300px;
     width:200px;
     display: flex;
+}
+
+.navbar{
+    padding : 5px 20px;
+    display : flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: hotpink;
+    position: relative;
+    height: 70px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color : rgb(0, 0, 0); 
 }
